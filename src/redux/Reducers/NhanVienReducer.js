@@ -4,7 +4,7 @@ const stateDefault = {
   dsSinhVien: [],
   sinhVienUpdate: "",
   ifNone: true,
-  dangKy: "Thêm Sinh Viên",
+  dangKy: "Đăng ký",
 };
 
 export const NhanVienReducer = (state = stateDefault, action) => {
