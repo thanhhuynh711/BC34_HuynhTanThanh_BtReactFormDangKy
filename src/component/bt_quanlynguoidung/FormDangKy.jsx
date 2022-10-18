@@ -67,9 +67,9 @@ class FormDangKy extends Component {
     event.preventDefault();
     let { taiKhoan, hoTen, soDienThoai, email } = this.state.sinhVien;
     let taiKhoanErr = this.state.error.taiKhoan;
-    let hoTenErr = this.state.error.taiKhoan;
-    let soDienThoaiErr = this.state.error.taiKhoan;
-    let emailErr = this.state.error.taiKhoan;
+    let hoTenErr = this.state.error.hoTen;
+    let soDienThoaiErr = this.state.error.soDienThoai;
+    let emailErr = this.state.error.email;
 
     if (
       taiKhoan != "" &&
